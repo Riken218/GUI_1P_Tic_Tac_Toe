@@ -1,7 +1,7 @@
 # GUI_1P_Tic_Tac_Toe
 # Python 3.x
 
-Tkinter GUI Tic-Tac-Toe with an "AI"
+Tkinter GUI Single-Player Tic-Tac-Toe with an "AI"
 
 Straightforward Computer Player "AI" that plays agains the player.
 
