@@ -815,7 +815,7 @@ frame.grid(row=1, column = 0)
 # Create and place Reset Button above game board
 reset_button = tk.Button(root,
                          text="Reset Game",
-                         font=('lucida',12),
+                         font=('arial',12),
                          command=reset,)
 reset_button.grid(row=0, column=0)
 reset_button.grid(sticky='w')
