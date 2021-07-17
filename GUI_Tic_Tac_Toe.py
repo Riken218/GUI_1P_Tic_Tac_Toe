@@ -808,29 +808,18 @@ def make_GUI_et_al():
 # Create Frame for Buttons (width=height => square Button)
 # and Buttons named for positions on board
 frame = tk.Frame(root)
-frame.pack()
+frame.grid(row=1, column = 0)
 
-#######################################################################
-# From Codemy.com
-
-# Create menu
-my_menu = tk.Menu(root)
-root.config(menu=my_menu)
-
-# Create Options Menu
-options_menu = tk.Menu(my_menu, tearoff=False)
-my_menu.add_cascade(label="Options",
-                    font=("lucida", 12),
-                    menu=options_menu)
-options_menu.add_command(label="Reset Game",
-                         font=("lucida", 12),
-                         command=reset)
-
-#######################################################################
+# Create and place Reset Button above game board
+reset_button = tk.Button(root,
+                         text="Reset Game",
+                         font=('lucida',12),
+                         command=reset,)
+reset_button.grid(row=0, column=0)
+reset_button.grid(sticky='w')
 
 # Runs to open GUI and also resets board after clicking "Reset Game"
 reset()
 
 # Loop the window
 root.mainloop()
-
