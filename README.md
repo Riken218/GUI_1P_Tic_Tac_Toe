@@ -1,4 +1,4 @@
-# GUI_1P_Tic_Tac_Toe
+# GUI 1-Player Tic-Tac-Toe
 # Python 3.x
 
 Tkinter GUI Single-Player Tic-Tac-Toe with an "AI"
